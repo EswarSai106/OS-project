@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 #include<conio.h>
 
@@ -91,5 +90,5 @@ printf("P%d\t%d\t%d\t%d\t%d\n",p_list[i].p_no,p_list[i].arrival_t,p_list[i].ct,p
 ,p_list[i].wait_t);
  }
 printf("average turn around time is : %f\t\n\n",avg_taround_time);
-printf("average waiting time is  :\t %f\t\n",avg_w_t);
+printf("average waiting time is  :\t %f\t\n",avg_w_t/n);
 }
